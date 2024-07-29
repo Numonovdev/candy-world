@@ -1,0 +1,404 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: #81689D;
+     width: 100%;
+     color: #fff;
+     font-family: "Advent Pro", sans-serif;
+}
+a{
+     text-decoration: none;
+     color: #fff;
+}
+
+.header{
+     margin: 15px auto;
+     border-radius: 15px;
+     max-width: 1340px;
+     width: 100%;
+   background: rgba(255, 208, 236, 0.25);
+
+     /* background-color: rgba(129, 104, 157, 1); */
+}
+.container{
+     max-width: 1279px;
+     width: 100%;
+     margin: 0px auto;
+}
+.head_container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 70px;
+     font-weight: 700;
+}
+.header .head_container   h1{
+     font-size: 34px;
+     line-height: 40px;
+}
+ul{
+     display: flex;
+     gap: 30px;
+     list-style: none;
+}
+.head_container ul li a{
+     font-size: 16px;
+     line-height: 20px;
+}
+
+.head_container ul li a:hover{
+     text-decoration: underline;
+}
+.head_container .links{
+     display: flex;
+     gap: 10px;
+     font-size: 28px;
+     align-items: center;
+}
+.links button{
+     padding: 11px 20px;
+     font-size: 17px;
+     line-height: 20px;
+     font-weight: 600;
+     border-radius: 6px;
+     background-color: rgba(71, 79, 122, 1)     ;
+     font-family: 'Advent Pro', sans-serif;
+     border: 2px solid rgba(71, 79, 122, 1);
+     color: #fff;
+     transition: all 0.4s;
+}
+
+.links button:hover{
+     /* background-color: rgb(100, 107, 145); */
+     background-color: transparent;
+     text-shadow: 20px 14px 14px 10px rgba(255, 255, 255, 0.25);
+
+}
+button:hover p i{
+     animation: e 0.9s infinite;
+}
+.buyurtma_container .block{
+     width: 843px;
+     height: 361px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 50px 30px 25px 40px;
+     background-color: rgba(255, 208, 236, 0.1)     ;
+     box-shadow: 0px 4px 4px 0px #FFFFFF40;
+     border-radius: 35px;
+     margin-top: 70px;
+     font-family: 'Advent Pro', sans-serif;
+     text-align: left;
+
+}
+.block .buyurtma-info h1{
+     font-size: 70px;
+     font-weight: 700;
+     line-height: 83.72px;
+}
+.buyurtma-info h6{
+     font-size: 36px;
+     font-weight: 500;
+     line-height: 43.06px;
+     margin-top: 12px;
+}
+.buyurtma-info button{
+     width: 199px;
+     height: 42px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 12px;
+     border: 2px solid rgba(71, 79, 122, 1);
+     /* padding: 14px 28px; */
+     margin-top: 25px;
+     background: rgba(71, 79, 122, 1);
+     color: #fff;
+     font-size: 20px;
+     line-height: 24px;
+     font-family: 'Advent Pro', sans-serif;
+}
+.buyurtma-info button:hover{
+     background-color: transparent;
+     
+}
+.buyurtma-info .dastavka{
+     font-size: 15px;
+     font-weight: 600;
+     line-height: 17.94px;
+     margin-top: 8px;
+}
+.next-info i{
+     font-size: 60px;
+     transition: all 0.4s;
+}
+.next-info i:hover{
+       color: rgba(71, 79, 122, 1);
+}
+.biz_container{
+     margin-top: 80px;
+     display: flex;
+     flex-direction: column;
+     gap: 56px;
+     align-items: center;
+}
+.biz-in-top{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+     align-items: center;
+     font-weight: 700;
+}
+.biz-in-top h1{
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 40px;
+     line-height: 47.84px;
+}
+.biz-in-top .solid{
+     width: 100px;
+     border-radius: 10px;
+     border: 2px solid;
+     background: rgba(255, 255, 255, 1);
+     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+}
+.biz-in-top p{
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 18px;
+     line-height: 21.53px;
+}
+.biz-in-info{
+     display: flex;
+     gap: 25px;
+}
+.biz-in-block{
+     background-color: rgba(255, 208, 236, 0.1);
+     width: 795px;
+     height: 350px;
+     border-radius: 25px;
+     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding-left: 44px;
+     padding-right: 50px;
+     gap: 20px;
+}
+/* rasm qoyganda orasin ochiw kere */
+.biz-in-block h1{
+     margin-bottom: 21px;
+     font-size: 58px;
+     font-weight: 700;
+     line-height: 69.37px;
+}
+.biz-in-block h6{
+     font-family: Advent Pro;
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 43.06px;     
+}
+.biz-in-block p{
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 23.92px;
+}
+.biz-in-messengers{
+     background-color: rgba(255, 208, 236, 0.1);
+     border-radius: 25px;
+     width: 459px;
+     height: 350px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     justify-content: center;
+     padding-left: 40px;
+     padding-right: 93px;
+     font-family: 'Advent Pro', sans-serif;
+}
+.biz-in-messengers h1{
+     font-size: 38px;
+     font-weight: 700;
+     line-height: 45.45px;     
+}
+.biz-in-messengers p{
+     font-size: 22px;
+     font-weight: 500;
+     line-height: 26.31px;     
+}
+.biz-in-messengers span{
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     margin-top: 8px;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.7px;
+     text-align: left;
+}
+span a{
+     margin-top: -2px;
+     align-items: center;
+     display: flex;
+     transition: all 0.4s;
+}
+.biz-in-messengers span i{
+     margin-left: 10px;
+     font-size: 28px;
+     margin-top: 2px;
+}
+.biz-in-messengers span a:hover{
+     color: blue;
+}
+
+.biz-in-messengers .bizin-messenger-btn{
+     width: 199px;
+     height: 42px;
+     box-shadow: 0px 4px 4px 0px rgba(129, 104, 157, 0.25);
+     background-color: rgba(255, 208, 236, 1);
+     border: 1px solid rgba(255, 208, 236, 1);
+     border-radius: 12px;
+     margin-top: 21px;
+     transition: all 0.4s;
+}
+.bizin-messenger-btn:hover{
+     background-color: transparent;
+     color: #fff;
+}
+.shirinliklar_container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 50px;
+     margin-top: 100px;
+}
+.shirinliklar_container .shirinliklar-top{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 25px;
+}
+.shirinliklar-top h1{
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 47.84px;
+}
+.shirinliklar-top .solid{
+     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+     width: 100px;
+     height: 2px;
+     background: rgba(255, 255, 255, 1);
+     border-radius: 10px;
+}
+.shirinliklar-top p{
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 21.53px;     
+}
+.shirinliklar-main{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 25px;
+}
+.sh-block{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 16px;
+     padding: 20px 21px 25px;
+     width: 282px;
+     background: rgba(255, 208, 236, 0.1);
+     border-radius: 25px;
+}
+.sh-block img{
+     width: 200px;
+     height: 200px;
+}
+
+.sh-block h4{
+     font-size: 34px;
+     font-weight: 700;
+     line-height: 40.66px;     
+}
+.sh-block p{
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 28.7px;     
+}
+
+.sh-block .sh-block-btn{
+     width: 240px;
+     height: 42px;
+     background: rgba(255, 208, 236, 1);
+     box-shadow: 0px 4px 4px 0px rgba(129, 104, 157, 0.25);
+     border: 1px solid rgba(255, 208, 236, 1);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+     transition: all 0.4s;
+     font-weight: 600;
+     line-height: 23.92px;
+     border-radius: 12px;     
+}
+.sh-block-btn:hover{
+     background-color: transparent;
+     color: #fff;
+}
+.shirinliklar-botton-btn{
+     width: 240px;
+     height: 42px;
+     border-radius: 12px;
+     background: rgba(71, 79, 122, 1);
+     box-shadow: 0px 4px 4px 0px rgba(129, 104, 157, 0.25);
+     border:  1px solid rgba(71, 79, 122, 1);
+     color: #fff;
+     transition: all 0.4s;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 23.92px;
+}
+.shirinliklar-botton-btn:hover{
+     background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes e {
+  from {color: blue;}
+  to {color: rgb(244, 245, 244);}
+}
+
+
+
