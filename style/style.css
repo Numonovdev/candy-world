@@ -275,7 +275,7 @@ span a{
      gap: 50px;
      margin-top: 100px;
 }
-.shirinliklar_container .shirinliklar-top{
+ .shirinliklar-top{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -366,20 +366,188 @@ span a{
 .shirinliklar-botton-btn:hover{
      background-color: transparent;
 }
+.boglanish{
+     margin-top: 100px;
+}
+.boglanish-input{
+     margin-top: 56px;
+     display: flex;
+     align-items: center;
+}
+.input-block{
+     width: 740px;
+     padding: 50px 36px 58px;
+     height: 525px;
+     border-radius: 35px;
+     margin-right: 50px;
+     background-color: rgba(255, 208, 236, 0.1);
+
+}
+.input-block h1{
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 38px;
+     font-weight: 700;
+     line-height: 45.45px;     
+}
+.input-block p{
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 23     .92px;
+     margin-top: 26px;     
+          
+}
+.input-block input{
+     width: 100%;
+     padding: 17px 37px;
+     background: rgba(255, 208, 236, 0.2);
+     margin-top: 29px;
+     border: none;
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 22px;
+     font-weight: 500;
+     line-height: 26.31px;     
+     color: #fff;
+     outline: none;
+     border-radius: 12px;
+}
+.input-block select{
+     width: 100%;
+     margin-top: 29px;
+     background-color: rgba(255, 208, 236, 0.1);
+     padding: 17px 37px;
+     font-size: 22px;
+     font-weight: 500;
+     line-height: 23px;
+     outline: none;
+     border-radius: 12px;
+     color: #fff;
+}
+
+.input-block .yuborish{
+     width: 240px;
+     height: 42px;
+     border-radius: 12px;
+     background-color: rgba(71, 79, 122, 1);
+     color: #fff;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 23.92px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(71, 79, 122, 1);
+      outline: none;     
+      transition: all 0.4s;
+      margin-top: 40px;
+}
+.input-block .yuborish:hover{
+      background-color: transparent;
+}
+.footer{
+
+     background-color: rgba(255, 208, 236, 0.1);
+     border-radius: 15px;
+     box-sizing: border-box;
+     padding-top: 37px;
+     margin: 203px 50px 20px;
+     width: 100%;
+     height: 261px;
+}
+
+.footer-top{
+     width: 100%;
+     display: flex;
+/* align-items: center; */
+     gap: 130px;
+
+}
+.footer-top h1{
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 34px;
+     font-weight: 700;
+     line-height: 40.66px;     
+}
+
+.footer-top .saytboyicha{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+.saytboyicha h1{
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 21.53px;     
+}
+.saytboyicha ul{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     list-style: none;
+}
+.saytboyicha ul li a{
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 16px;
+     color: #fff;
+     font-weight: 500;
+     line-height: 19.14px;
+     transition: all 0.4s;
+}
+.saytboyicha ul li a:hover{
+     /* color: blue; */
+     text-decoration: underline;
+}
+.footer-top .messengers{
+        display: block;
+        flex-direction: column;
+        gap: 23px;
+}
+.footer-top .messengers span{
+     display: flex;
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.7px;
+     gap: 10px;
+}
+.footer-top .messengers span:nth-child(2){
+     margin-top: 19px;
+
+}
+.fo  .messengers span a{
+display: flex;
+gap: 10px;
+align-items: center;
+font-size: 24px;
+}
+.footer-top .messengers span a i{
+     margin-left: 10px;
+}
+.footer-top .messengers span a:hover{
+     color:blue ;
+}
+.bizin-messenger-btn{
+     width: 240px;
+     height: 42px;
+     border-radius: 12px;
+     font-family: 'Advent Pro', sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 23.92px;     
+     background-color: rgba(71, 79, 122, 1)     ;
+     border:  1px solid rgba(71, 79, 122, 1);
+     color: #fff;
+     margin-top: 24px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-top iframe{
+     border-radius:20px ;
+     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+}
+.footer-bottom{
+     text-align: center;
+     margin-top: 32px;
+}
 
 
 
